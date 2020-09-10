@@ -1,9 +1,9 @@
 # GenericQuiz
 Template for a generic quiz skill on Alexa. 
 
-Currently configured as a state capital quiz.
+Currently configured as a state capital quiz. The text surrounding the quiz is in a separate text file to make translations easier. The questions and answers are in a separate file for content portability.
 
-For APL there are images of state capitols and state flags accessed via S3 that are not included in this repo.\
+For APL there are images of state capitols and state flags accessed via S3 that are not included in this repo.
 
 The lambda for this skill uses this Layer: arn:aws:lambda:us-west-2:173334852312:layer:ask-sdk-for-nodejs:4
 
