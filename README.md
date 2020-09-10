@@ -1,6 +1,7 @@
 # GenericQuiz
-Assets for a generic quiz skill on Alexa
+Template for a generic quiz skill on Alexa. 
 
-The JS files should be installed in the same directory.
+Currently configured as a state capital quiz.
 
-The labguage model JSON file can be uploaded in the "Skill Builder Beta" in the Amazon dev console.
+For APL there are images of state capitols and state flags accessed via S3 that are not included in this repo.
+
