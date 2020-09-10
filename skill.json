@@ -1,0 +1,194 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": ""
+        },
+        "interfaces": [
+          {
+            "supportedViewports": [
+              {
+                "maxHeight": 480,
+                "maxWidth": 480,
+                "minHeight": 480,
+                "minWidth": 480,
+                "mode": "HUB",
+                "shape": "ROUND"
+              },
+              {
+                "maxHeight": 600,
+                "maxWidth": 1024,
+                "minHeight": 600,
+                "minWidth": 1024,
+                "mode": "HUB",
+                "shape": "RECTANGLE"
+              },
+              {
+                "maxHeight": 800,
+                "maxWidth": 1280,
+                "minHeight": 800,
+                "minWidth": 1280,
+                "mode": "HUB",
+                "shape": "RECTANGLE"
+              },
+              {
+                "maxHeight": 540,
+                "maxWidth": 960,
+                "minHeight": 540,
+                "minWidth": 960,
+                "mode": "TV",
+                "shape": "RECTANGLE"
+              },
+              {
+                "maxHeight": 480,
+                "maxWidth": 960,
+                "minHeight": 480,
+                "minWidth": 960,
+                "mode": "HUB",
+                "shape": "RECTANGLE"
+              }
+            ],
+            "type": "ALEXA_PRESENTATION_APL"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "containsAds": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "locales": {
+        "en-US": {},
+        "en-CA": {},
+        "en-IN": {},
+        "en-AU": {},
+        "en-GB": {}
+      },
+      "usesPersonalInfo": false
+    },
+    "publishingInformation": {
+      "automaticDistribution": {
+        "isActive": false,
+        "sourceLocaleForLanguages": []
+      },
+      "category": "QUIZZES",
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "en-US": {
+          "description": "This is a quick skill to brush up on United States capital cities. Each quick quiz consists of 5 randomly questions for you to match the states with their capital cities. If your device has a screen you will see pictures related to the states and their capitols. Good luck!",
+          "examplePhrases": [
+            "Alexa open state capitols",
+            "Is it Pierre",
+            "I think it is Frankfort"
+          ],
+          "keywords": [
+            "state",
+            "capitols",
+            "trivia",
+            "capitals",
+            "quiz",
+            "U.S.",
+            "geography"
+          ],
+          "largeIconUri": "",
+          "name": "State Capitals Quiz",
+          "smallIconUri": "",
+          "summary": "This is a quiz of the capital cities in the United States.",
+          "updatesDescription": "You now have the option to continue taking quizzes without restarting the skill. \nPictures have been added for screen enabled devices."
+        },
+        "en-CA": {
+          "description": "This is a quick skill to brush up on United States capital cities. Each quick quiz consists of 5 randomly questions for you to match the states with their capital cities. If your device has a screen you will see pictures related to the states and their capitols. Good luck!",
+          "examplePhrases": [
+            "Alexa open state capitols",
+            "Is it Pierre",
+            "I think it is Frankfort"
+          ],
+          "keywords": [
+            "state",
+            "capitols",
+            "trivia",
+            "capitals",
+            "quiz",
+            "U.S.",
+            "geography"
+          ],       
+          "largeIconUri": "",
+          "name": "State Capitals Quiz",
+          "smallIconUri": "",   "summary": "This is a quiz of the capital cities in the United States.",
+          "updatesDescription": "You now have the option to continue taking quizzes without restarting the skill. \nPictures have been added for screen enabled devices."
+        },
+        "en-IN": {
+          "description": "This is a quick skill to brush up on United States capital cities. Each quick quiz consists of 5 randomly questions for you to match the states with their capital cities. If your device has a screen you will see pictures related to the states and their capitols. Good luck!",
+          "examplePhrases": [
+            "Alexa open state capitols",
+            "Is it Pierre",
+            "I think it is Frankfort"
+          ],
+          "keywords": [
+            "state",
+            "capitols",
+            "trivia",
+            "capitals",
+            "quiz",
+            "U.S.",
+            "geography"
+          ],
+          "largeIconUri": "",
+          "name": "State Capitals Quiz",
+          "smallIconUri": "",
+          "summary": "This is a quiz of the capital cities in the United States.",
+          "updatesDescription": "You now have the option to continue taking quizzes without restarting the skill. \nPictures have been added for screen enabled devices."
+        },
+        "en-AU": {
+          "description": "This is a quick skill to brush up on United States capital cities. Each quick quiz consists of 5 randomly questions for you to match the states with their capital cities. If your device has a screen you will see pictures related to the states and their capitols. Good luck!",
+          "examplePhrases": [
+            "Alexa open state capitols",
+            "Is it Pierre",
+            "I think it is Frankfort"
+          ],
+          "keywords": [
+            "state",
+            "capitols",
+            "trivia",
+            "capitals",
+            "quiz",
+            "U.S.",
+            "geography"
+          ],
+          "largeIconUri": "",
+          "name": "State Capitals Quiz",
+          "smallIconUri": "",
+          "summary": "This is a quiz of the capital cities in the United States.",
+          "updatesDescription": "You now have the option to continue taking quizzes without restarting the skill. \nPictures have been added for screen enabled devices."
+        },
+        "en-GB": {
+          "description": "This is a quick skill to brush up on United States capital cities. Each quick quiz consists of 5 randomly questions for you to match the states with their capital cities. If your device has a screen you will see pictures related to the states and their capitols. Good luck!",
+          "examplePhrases": [
+            "Alexa open state capitols",
+            "Is it Pierre",
+            "I think it is Frankfort"
+          ],
+          "keywords": [
+            "state",
+            "capitols",
+            "trivia",
+            "capitals",
+            "quiz",
+            "U.S.",
+            "geography"
+          ],
+          "largeIconUri": "",
+          "name": "State Capitals Quiz",
+          "smallIconUri": "",
+          "summary": "This is a quiz of the capital cities in the United States.",
+          "updatesDescription": "You now have the option to continue taking quizzes without restarting the skill. \nPictures have been added for screen enabled devices."
+        }
+      },
+      "testingInstructions": "This is a simple question and response skill with no special instructions for hardware or account info."
+    }
+  }
+}
