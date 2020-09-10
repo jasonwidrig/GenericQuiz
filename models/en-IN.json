@@ -1,0 +1,842 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "state capitals",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": [
+            "nowe"
+          ]
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AnswerIntent",
+          "slots": [
+            {
+              "name": "citySlot",
+              "type": "capitalCities"
+            },
+            {
+              "name": "stateSlot",
+              "type": "states"
+            }
+          ],
+          "samples": [
+            "state of {stateSlot}",
+            "is it {stateSlot} state",
+            "its the state of {stateSlot}",
+            "my answer is {stateSlot}",
+            "is it {stateSlot}",
+            "{stateSlot} is the correct answer",
+            "i think it is {stateSlot}",
+            "its {stateSlot}",
+            "{stateSlot}",
+            "{stateSlot} is my answer",
+            "{citySlot}",
+            "its {citySlot}",
+            "I think its {citySlot}",
+            "{citySlot} is the correct answer",
+            "it can be {citySlot}",
+            "I think it is {citySlot}",
+            "the answer is {citySlot}",
+            "my answer is {citySlot}",
+            "is it {citySlot}",
+            "{citySlot} is my answer"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "dyersburg"
+              }
+            },
+            {
+              "name": {
+                "value": "mount vernon"
+              }
+            },
+            {
+              "name": {
+                "value": "clarksburg"
+              }
+            },
+            {
+              "name": {
+                "value": "chambersburg"
+              }
+            },
+            {
+              "name": {
+                "value": "hagerstown"
+              }
+            },
+            {
+              "name": {
+                "value": "zanesville"
+              }
+            },
+            {
+              "name": {
+                "value": "chillicothe"
+              }
+            },
+            {
+              "name": {
+                "value": "bluffton"
+              }
+            },
+            {
+              "name": {
+                "value": "leesburg"
+              }
+            },
+            {
+              "name": {
+                "value": "carrollton"
+              }
+            },
+            {
+              "name": {
+                "value": "centerville"
+              }
+            },
+            {
+              "name": {
+                "value": "mount sterling"
+              }
+            },
+            {
+              "name": {
+                "value": "morgantown"
+              }
+            },
+            {
+              "name": {
+                "value": "pine bluff"
+              }
+            },
+            {
+              "name": {
+                "value": "huntsville"
+              }
+            },
+            {
+              "name": {
+                "value": "russellville"
+              }
+            },
+            {
+              "name": {
+                "value": "madisonville"
+              }
+            },
+            {
+              "name": {
+                "value": "texarkana"
+              }
+            },
+            {
+              "name": {
+                "value": "shelbyville"
+              }
+            },
+            {
+              "name": {
+                "value": "lawrenceburg"
+              }
+            },
+            {
+              "name": {
+                "value": "greensburg"
+              }
+            },
+            {
+              "name": {
+                "value": "williamsport"
+              }
+            },
+            {
+              "name": {
+                "value": "bloomington"
+              }
+            },
+            {
+              "name": {
+                "value": "lafayette"
+              }
+            },
+            {
+              "name": {
+                "value": "covington"
+              }
+            },
+            {
+              "name": {
+                "value": "rocky mount"
+              }
+            },
+            {
+              "name": {
+                "value": "hattiesburg"
+              }
+            },
+            {
+              "name": {
+                "value": "hopkinsville"
+              }
+            },
+            {
+              "name": {
+                "value": "maysville"
+              }
+            },
+            {
+              "name": {
+                "value": "clarksville"
+              }
+            },
+            {
+              "name": {
+                "value": "paducah"
+              }
+            },
+            {
+              "name": {
+                "value": "winston-salem"
+              }
+            },
+            {
+              "name": {
+                "value": "owensboro"
+              }
+            },
+            {
+              "name": {
+                "value": "roanoke"
+              }
+            },
+            {
+              "name": {
+                "value": "asheville"
+              }
+            },
+            {
+              "name": {
+                "value": "hillsboro"
+              }
+            },
+            {
+              "name": {
+                "value": "ashland"
+              }
+            },
+            {
+              "name": {
+                "value": "parkersburg"
+              }
+            },
+            {
+              "name": {
+                "value": "peoria"
+              }
+            },
+            {
+              "name": {
+                "value": "danville"
+              }
+            },
+            {
+              "name": {
+                "value": "evansville"
+              }
+            },
+            {
+              "name": {
+                "value": "new albany"
+              }
+            },
+            {
+              "name": {
+                "value": "chattanooga"
+              }
+            },
+            {
+              "name": {
+                "value": "memphis"
+              }
+            },
+            {
+              "name": {
+                "value": "shreveport"
+              }
+            },
+            {
+              "name": {
+                "value": "jacksonville"
+              }
+            },
+            {
+              "name": {
+                "value": "wilmington"
+              }
+            },
+            {
+              "name": {
+                "value": "greensboro"
+              }
+            },
+            {
+              "name": {
+                "value": "lynchburg"
+              }
+            },
+            {
+              "name": {
+                "value": "spartanburg"
+              }
+            },
+            {
+              "name": {
+                "value": "knoxville"
+              }
+            },
+            {
+              "name": {
+                "value": "cheyenne"
+              }
+            },
+            {
+              "name": {
+                "value": "madison"
+              }
+            },
+            {
+              "name": {
+                "value": "charleston"
+              }
+            },
+            {
+              "name": {
+                "value": "olympia"
+              }
+            },
+            {
+              "name": {
+                "value": "richmond"
+              }
+            },
+            {
+              "name": {
+                "value": "montpelier"
+              }
+            },
+            {
+              "name": {
+                "value": "salt lake city"
+              }
+            },
+            {
+              "name": {
+                "value": "austin"
+              }
+            },
+            {
+              "name": {
+                "value": "nashville"
+              }
+            },
+            {
+              "name": {
+                "value": "pierre"
+              }
+            },
+            {
+              "name": {
+                "value": "columbia"
+              }
+            },
+            {
+              "name": {
+                "value": "providence"
+              }
+            },
+            {
+              "name": {
+                "value": "harrisburg"
+              }
+            },
+            {
+              "name": {
+                "value": "salem"
+              }
+            },
+            {
+              "name": {
+                "value": "oklahoma city"
+              }
+            },
+            {
+              "name": {
+                "value": "columbus"
+              }
+            },
+            {
+              "name": {
+                "value": "bismarck"
+              }
+            },
+            {
+              "name": {
+                "value": "raleigh"
+              }
+            },
+            {
+              "name": {
+                "value": "albany"
+              }
+            },
+            {
+              "name": {
+                "value": "santa fe"
+              }
+            },
+            {
+              "name": {
+                "value": "trenton"
+              }
+            },
+            {
+              "name": {
+                "value": "concord"
+              }
+            },
+            {
+              "name": {
+                "value": "carson city"
+              }
+            },
+            {
+              "name": {
+                "value": "lincoln"
+              }
+            },
+            {
+              "name": {
+                "value": "helena"
+              }
+            },
+            {
+              "name": {
+                "value": "jefferson city"
+              }
+            },
+            {
+              "name": {
+                "value": "jackson"
+              }
+            },
+            {
+              "name": {
+                "value": "saint paul"
+              }
+            },
+            {
+              "name": {
+                "value": "lansing"
+              }
+            },
+            {
+              "name": {
+                "value": "boston"
+              }
+            },
+            {
+              "name": {
+                "value": "annapolis"
+              }
+            },
+            {
+              "name": {
+                "value": "augusta"
+              }
+            },
+            {
+              "name": {
+                "value": "baton rouge"
+              }
+            },
+            {
+              "name": {
+                "value": "frankfort"
+              }
+            },
+            {
+              "name": {
+                "value": "topeka"
+              }
+            },
+            {
+              "name": {
+                "value": "des moines"
+              }
+            },
+            {
+              "name": {
+                "value": "indianapolis"
+              }
+            },
+            {
+              "name": {
+                "value": "springfield"
+              }
+            },
+            {
+              "name": {
+                "value": "boise"
+              }
+            },
+            {
+              "name": {
+                "value": "honolulu"
+              }
+            },
+            {
+              "name": {
+                "value": "atlanta"
+              }
+            },
+            {
+              "name": {
+                "value": "tallahassee"
+              }
+            },
+            {
+              "name": {
+                "value": "hartford"
+              }
+            },
+            {
+              "name": {
+                "value": "denver"
+              }
+            },
+            {
+              "name": {
+                "value": "sacramento"
+              }
+            },
+            {
+              "name": {
+                "value": "little rock"
+              }
+            },
+            {
+              "name": {
+                "value": "phoenix"
+              }
+            },
+            {
+              "name": {
+                "value": "juneau"
+              }
+            },
+            {
+              "name": {
+                "value": "montgomery"
+              }
+            },
+            {
+              "name": {
+                "value": "dover"
+              }
+            }
+          ],
+          "name": "capitalCities"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "wyoming"
+              }
+            },
+            {
+              "name": {
+                "value": "wisconsin"
+              }
+            },
+            {
+              "name": {
+                "value": "west virginia"
+              }
+            },
+            {
+              "name": {
+                "value": "washington"
+              }
+            },
+            {
+              "name": {
+                "value": "virginia"
+              }
+            },
+            {
+              "name": {
+                "value": "vermont"
+              }
+            },
+            {
+              "name": {
+                "value": "utah"
+              }
+            },
+            {
+              "name": {
+                "value": "texas"
+              }
+            },
+            {
+              "name": {
+                "value": "tennessee"
+              }
+            },
+            {
+              "name": {
+                "value": "south dakota"
+              }
+            },
+            {
+              "name": {
+                "value": "south carolina"
+              }
+            },
+            {
+              "name": {
+                "value": "rhode island"
+              }
+            },
+            {
+              "name": {
+                "value": "pennsylvania"
+              }
+            },
+            {
+              "name": {
+                "value": "oregon"
+              }
+            },
+            {
+              "name": {
+                "value": "oklahoma"
+              }
+            },
+            {
+              "name": {
+                "value": "ohio"
+              }
+            },
+            {
+              "name": {
+                "value": "north dakota"
+              }
+            },
+            {
+              "name": {
+                "value": "north carolina"
+              }
+            },
+            {
+              "name": {
+                "value": "new york"
+              }
+            },
+            {
+              "name": {
+                "value": "new mexico"
+              }
+            },
+            {
+              "name": {
+                "value": "new jersey"
+              }
+            },
+            {
+              "name": {
+                "value": "new hampshire"
+              }
+            },
+            {
+              "name": {
+                "value": "nevada"
+              }
+            },
+            {
+              "name": {
+                "value": "nebraska"
+              }
+            },
+            {
+              "name": {
+                "value": "montana"
+              }
+            },
+            {
+              "name": {
+                "value": "missouri"
+              }
+            },
+            {
+              "name": {
+                "value": "mississippi"
+              }
+            },
+            {
+              "name": {
+                "value": "minnesota"
+              }
+            },
+            {
+              "name": {
+                "value": "michigan"
+              }
+            },
+            {
+              "name": {
+                "value": "massachusetts"
+              }
+            },
+            {
+              "name": {
+                "value": "maryland"
+              }
+            },
+            {
+              "name": {
+                "value": "maine"
+              }
+            },
+            {
+              "name": {
+                "value": "louisiana"
+              }
+            },
+            {
+              "name": {
+                "value": "kentucky"
+              }
+            },
+            {
+              "name": {
+                "value": "kansas"
+              }
+            },
+            {
+              "name": {
+                "value": "iowa"
+              }
+            },
+            {
+              "name": {
+                "value": "indiana"
+              }
+            },
+            {
+              "name": {
+                "value": "illinois"
+              }
+            },
+            {
+              "name": {
+                "value": "idaho"
+              }
+            },
+            {
+              "name": {
+                "value": "hawaii"
+              }
+            },
+            {
+              "name": {
+                "value": "georgia"
+              }
+            },
+            {
+              "name": {
+                "value": "florida"
+              }
+            },
+            {
+              "name": {
+                "value": "delaware"
+              }
+            },
+            {
+              "name": {
+                "value": "connecticut"
+              }
+            },
+            {
+              "name": {
+                "value": "colorado"
+              }
+            },
+            {
+              "name": {
+                "value": "california"
+              }
+            },
+            {
+              "name": {
+                "value": "arkansas"
+              }
+            },
+            {
+              "name": {
+                "value": "arizona"
+              }
+            },
+            {
+              "name": {
+                "value": "alaska"
+              }
+            },
+            {
+              "name": {
+                "value": "alabama"
+              }
+            }
+          ],
+          "name": "states"
+        }
+      ]
+    }
+  },
+  "version": "1"
+}
